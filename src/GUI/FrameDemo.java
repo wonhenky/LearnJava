@@ -1,7 +1,8 @@
 package GUI;
+//Abstract Window ToolKit(awt)
 import java.awt.Button;
 import java.awt.FlowLayout;
-import java.awt.Frame;
+import java.awt.Frame;//带有标题和顶层的窗口 Window的子类
 import java.awt.TextArea;
 import java.awt.TextField;
 import java.awt.event.ActionEvent;
@@ -13,7 +14,7 @@ public class FrameDemo {
 		Frame f = new Frame("Java GUI");
 		//设置初识点，和窗口大小
 		f.setBounds(400, 200, 400, 270);
-		//设置布局为FlowLayout
+		//设置布局方案为FlowLayout
 		f.setLayout(new FlowLayout());
 		//创建文本框
 		final TextField tf = new TextField(20);
